@@ -1,8 +1,6 @@
 package web
 
 import (
-	"authentify/pkg/datap"
-	"authentify/pkg/key"
 	"bytes"
 	"crypto/rsa"
 	"crypto/x509"
@@ -11,6 +9,9 @@ import (
 	"fmt"
 	"io"
 	"net/http"
+
+	"github.com/hvckfy/authentify/pkg/datap"
+	"github.com/hvckfy/authentify/pkg/key"
 )
 
 /*
